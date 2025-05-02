@@ -18,5 +18,10 @@ sed -i 's/luci-theme-bootstrap/luci-theme-argon/g' feeds/luci/collections/luci/M
 
 
 # Modify hostname
-sed -i 's/OP/ospfx-Router/g' package/base-files/files/bin/config_generate
+#sed -i 's/OP/ospfx-Router/g' package/base-files/files/bin/config_generate
 git clone https://github.com/jerrykuku/luci-app-argon-config.git package/luci-app-argon-config
+
+# MTK modules
+src-git mtk https://github.com/Nossiac/mtk-openwrt-feeds;lede-17.01
+scripts/feeds update -f mtk
+scripts/feeds install -a -p mtk
