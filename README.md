@@ -1,4 +1,3 @@
-**English** | [中文](https://p3terx.com/archives/build-openwrt-with-github-actions.html)
 
 # Actions-OpenWrt
 
@@ -6,7 +5,7 @@
 ![GitHub Stars](https://img.shields.io/github/stars/P3TERX/Actions-OpenWrt.svg?style=flat-square&label=Stars&logo=github)
 ![GitHub Forks](https://img.shields.io/github/forks/P3TERX/Actions-OpenWrt.svg?style=flat-square&label=Forks&logo=github)
 
-A template for building OpenWrt with GitHub Actions
+A template for building OpenWrt with GitHub Actions, The configuration file is used for K2P firmware.
 
 ## Usage
 
